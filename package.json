@@ -1,0 +1,17 @@
+{
+  "name": "typescript-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "postinstall": "tsc",
+    "start": "node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
